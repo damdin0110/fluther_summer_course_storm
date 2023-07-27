@@ -16,14 +16,14 @@ class ImmutableWidget extends StatelessWidget {
               height: 250,
               decoration: BoxDecoration(
                 color: Colors.purple,
-                boxShadow: [BoxShadow(
-                  color: Colors.deepPurple.withAlpha(120),
-                  spreadRadius: 4,
-                  blurRadius: 15,
-                  offset: Offset.fromDirection(1.0,30),
-
-
-                )],
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.deepPurple.withAlpha(120),
+                    spreadRadius: 4,
+                    blurRadius: 15,
+                    offset: Offset.fromDirection(1.0, 30),
+                  )
+                ],
                 borderRadius: BorderRadius.all(Radius.circular(20)),
               ),
               child: Padding(
